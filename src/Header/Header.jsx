@@ -5,7 +5,7 @@ export function Header() {
     <>
       <header className="flex gap-5 border-b-1 border-neutral-200">
         <div className="flex items-center gap-8 p-5">
-          <div className="">
+          {/* <div className="">
             <svg
               width="16"
               height="7"
@@ -22,7 +22,7 @@ export function Header() {
                 fill="#333333"
               ></path>
             </svg>
-          </div>
+          </div> */}
           <a href="/" className="rt_logo max-w-45">
             <img className="rt_logo__img" src={logo} alt="logo" />
           </a>
@@ -116,7 +116,6 @@ export function Header() {
               </div>
               <div className="text-neutral-400 text-sm">Заказать звонок</div>
             </div>
-            <div className=""></div>
           </div>
           <div className="flex flex-1">
             <div className="flex items-center">
