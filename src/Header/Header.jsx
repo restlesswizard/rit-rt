@@ -3,8 +3,8 @@ import logo from "./assets/logo.png";
 export function Header() {
   return (
     <>
-      <header className="flex gap-5 border-b-1 border-neutral-200">
-        <div className="flex items-center gap-8 p-5">
+      <header className="flex gap-5 border-b-1 border-neutral-200 pl-5 pr-5">
+        <div className="flex items-center gap-8 pr-5 pt-5 pb-5 sm:flex-col xl:flex-row">
           {/* <div className="">
             <svg
               width="16"
@@ -32,7 +32,7 @@ export function Header() {
           </div>
         </div>
         <div className="flex flex-col justify-center flex-1">
-          <div className="flex flex-1 items-center border-b-1 border-neutral-200">
+          <div className="flex flex-1 items-center border-b-1 border-neutral-200 min-h-16">
             <div className="flex items-center gap-2 text-sm">
               <svg
                 width="13"
@@ -117,17 +117,39 @@ export function Header() {
               <div className="text-neutral-400 text-sm">Заказать звонок</div>
             </div>
           </div>
-          <div className="flex flex-1">
+          <div className="flex flex-1 items-center">
             <div className="flex items-center">
-                <ul className="flex gap-12">
-                    <li className="">menu_item</li>
-                    <li className="">menu_item</li>
-                    <li className="">menu_item</li>
-                    <li className="">menu_item</li>
-                    <li className="">menu_item</li>
+                <ul className="flex xl:gap-12 flex-wrap lg:gap-6 pt-5 pb-5">
+                    <li className="">
+                      <a href="">Компания</a>
+                    </li>
+                    <li className="">
+                      <a href="">Товары</a>
+                    </li>
+                    <li className="">
+                      <a href="">Услуги</a>
+                    </li>
+                    <li className="">
+                      <a href="">Похороны</a>
+                    </li>
+                    <li className="">
+                      <a href="">Памятники</a>
+                    </li>
+                    <li className="">
+                      <a href="">Кремация</a>
+                    </li>
+                    <li className="">
+                      <a href="">Морги и кладбища</a>
+                    </li>
+                    <li className="">
+                      <a href="">Статьи</a>
+                    </li>
                 </ul>
             </div>
-            <div className="">header actions</div>
+            <div className="ml-auto flex gap-4 items-center min-h-16">
+              <img src="" alt="search" />
+              <button className="pt-2.5 pb-2.5 pl-5 pr-5 bg-[#7f868a] rounded text-white hover:bg-[#909598] cursor-pointer font-bold">Подать заявку</button>
+            </div>
           </div>
         </div>
       </header>
