@@ -117,9 +117,9 @@ export function Header() {
               <div className="text-neutral-400 text-sm">Заказать звонок</div>
             </div>
           </div>
-          <div className="flex flex-1 items-center">
+          <div className="flex flex-1 items-center ">
             <div className="flex items-center">
-                <ul className="flex xl:gap-12 flex-wrap lg:gap-6 pt-5 pb-5">
+                <ul className="flex gap-3 xl:gap-x-12 flex-wrap lg:gap-4 pt-5 pb-5">
                     <li className="">
                       <a href="">Компания</a>
                     </li>
